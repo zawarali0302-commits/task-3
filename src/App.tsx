@@ -6,6 +6,7 @@ export type User ={
   name: string;
   title?: string;
   picture: string;
+  verified: boolean;
 }
 
 
@@ -14,15 +15,18 @@ const user1: User={
   name: "Talan Dias",
   title: "ux designer",
   picture: "https://placehold.co/400",
+  verified: true,
 }
 const user2: User={
   name: "Talan Dias",
   picture: "https://placehold.co/400",
+  verified: false,
 }
 const user3: User={
   name: "Talan Dias",
   title: "",
   picture: "https://placehold.co/400",
+  verified: true,
 }
 
 
