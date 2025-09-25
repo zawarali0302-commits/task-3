@@ -4,7 +4,7 @@ import UserCard from './components/UserCard';
 
 export type User ={
   name: string;
-  title: string;
+  title?: string;
   picture: string;
 }
 
@@ -17,7 +17,6 @@ const user1: User={
 }
 const user2: User={
   name: "Talan Dias",
-  title: "ux designer",
   picture: "https://placehold.co/400",
 }
 const user3: User={

@@ -18,7 +18,7 @@ const UserCard = ({ user }: UserCardProps) => {
       </div>
       <div className='flex flex-col justify-center px-4 gap-4'>
         <div className='text-4xl font-bold'>{user.name}</div>
-        <div className='text-gray-500'>{user.title?.toUpperCase() || "Employee"}</div>
+        <div className='text-gray-500'>{user.title?.toUpperCase()?? "Employee"}</div>
       </div>
     </div>
 
