@@ -32,7 +32,7 @@ const user3: User={
 
   return (
     <>
-    <div className='flex flex-col gap-2'>
+    <div className='flex flex-col items-center justify-center gap-2'>
       <UserCard user={user1}/>    
       <UserCard user={user2}/>
       <UserCard user={user3}/>
